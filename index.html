@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Website</title>
+</head>
+
+<body>
+  <h1>My Website</h1>
+  <hr>
+  <h2>Nasir Uddin</h2>
+  <hr>
+  <p>Lorem ipsum dolor <br> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <img style="width:60vw;" src="sun.jpg" alt="">
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ol>
+  <table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Nasir</td>
+        <td>Uddin</td>
+        <td>Nasiruddin.dev@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Nasim</td>
+        <td>Uddin</td>
+        <td>Nasimuddin.dev@gmail.com</td>
+      </tr>
+    </thead>
+  </table>
+  <form action="process.php">
+    <div>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name">
+    </div>
+    <div>
+      <label for="email">Email</label><br>
+      <input type="text" name="email" id="email">
+    </div>
+    <div>
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" rows="5" cols="50"></textarea>
+    </div>
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="othes">Others</option>
+      </select>
+    </div>
+    <div>
+      <label for="age">Age</label><br>
+      <input type="number" name="age" value="age">
+    </div>
+    <div>
+      <label for="birthdate">Birthdate</label><br>
+      <input type="date" name="age" value="birthdate">
+    </div>
+    <div>
+      <label for="membership">Membership</label>
+      <input type="radio" name="membership" value="simple" id="membership">Simple
+      <input type="radio" name="membership" value="standard" id="Membership">Standard
+      <input type="radio" name="membership" value="super" id="membership">Super
+    </div>
+    <div>
+      <label for="membership">I like...</label>
+      <input type="checkbox" name="likes" value="bike" id="likes">Bike
+      <input type="checkbox" name="likes" value="boat" id="likes">Boat
+      <input type="checkbox" name="likes" value="car" id="likes">Car
+    </div>
+    <input type="submit" value="Submit">
+    <p>Copyright &copy 2019</p>
+  </form>
+</body>
+
+</html>
